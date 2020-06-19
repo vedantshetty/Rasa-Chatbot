@@ -9,13 +9,12 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
-- account_balance
 responses:
   utter_greet:
   - text: Hey! How are you?
   utter_cheer_up:
-  - text: 'Here is something to cheer you up:'
-    image: https://i.imgur.com/nGF1K8f.jpg
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
   utter_did_that_help:
   - text: Did that help you?
   utter_happy:
@@ -24,10 +23,6 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
-  utter_account_balance:
-  - text: Just a sec, let me check it out
-  - text: You have ₹12,34,567 in your bank account
-
 actions:
 - utter_greet
 - utter_cheer_up
@@ -35,4 +30,3 @@ actions:
 - utter_happy
 - utter_goodbye
 - utter_iamabot
-- utter_accountbalance

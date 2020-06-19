@@ -27,36 +27,21 @@
 - no way
 - not really
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
 ## intent:bot_challenge
 - are you a bot?
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
 
-
 ## intent:account_balance
-- what is my account balance?
-- what is my bank balance like?
-- how much money do I have?
+- What is my account balance?
+- How much money do I have in my bank?
+- What is my card balance?
+- Please give me an account statement
+
+
+## intent:block_card
+- I want to block my credit card
+- I want to block my account
+- Please disable my bank account
+
